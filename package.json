@@ -4,7 +4,8 @@
   "description": "first project for IS445",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/johntradiction/first-project/issues"
   },
-  "homepage": "https://github.com/johntradiction/first-project#readme"
+  "homepage": "https://github.com/johntradiction/first-project#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
